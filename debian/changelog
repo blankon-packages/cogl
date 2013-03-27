@@ -1,3 +1,27 @@
+cogl (1.14.0-1blankon1) suroboyo; urgency=low
+
+  * New upstream release
+
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Wed, 27 Mar 2013 13:34:18 +0700
+
+cogl (1.14.0-1) experimental; urgency=low
+
+  * New upstream release.
+    + debian/patches/Disable-reliance-on-KHR_create_context.patch:
+      - Removed, fixed upstream in a different way.
+  * debian/control.in,
+    debian/rules,
+    debian/libcogl12.*,
+    debian/libcogl-gles2-12.*,
+    debian/libcogl*-dev.install:
+    + Split libcogl-gles2 into its own package.
+  * debian/rules:
+    + Only enable egl/gles2 on linux and kfreebsd.
+  * debian/libcogl12.symbols:
+    + Mark cogl_egl_context_get_egl_display as not available on hurd.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Mon, 25 Mar 2013 18:33:43 +0100
+
 cogl (1.13.4-1blankon1) suroboyo; urgency=low
 
   * New upstream release
