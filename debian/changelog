@@ -1,3 +1,9 @@
+cogl (1.16.0-3blankon2) suroboyo; urgency=low
+
+  * debian/control.in : Change Architecture linux-any to any
+
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Wed, 23 Oct 2013 21:04:21 +0700
+
 cogl (1.16.0-3blankon1) suroboyo; urgency=low
 
   * New upstream release
