@@ -1,3 +1,9 @@
+cogl (1.16.0-3blankon3) suroboyo; urgency=low
+
+  * debian/control.in : Added sections Replaces: libcogl12
+
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Wed, 23 Oct 2013 21:57:57 +0700
+
 cogl (1.16.0-3blankon2) suroboyo; urgency=low
 
   * debian/control.in : Change Architecture linux-any to any
