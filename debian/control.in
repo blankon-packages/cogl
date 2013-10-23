@@ -34,8 +34,6 @@ Depends: ${shlibs:Depends},
 Recommends: libcogl-common
 Suggests: libgles2-mesa | libgles2, libgl1-mesa-glx
 Pre-Depends: ${misc:Pre-Depends}
-Conflicts: libcogl12
-Replaces: libcogl12
 Breaks: libclutter-1.0-0 (<< 1.15)
 Multi-Arch: same
 Description: Object oriented GL/GLES Abstraction/Utility Layer

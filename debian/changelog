@@ -1,3 +1,9 @@
+cogl (1.16.0-3blankon5) suroboyo; urgency=low
+
+  * debian/control.in drop sections Conflicts and Replaces
+
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Wed, 23 Oct 2013 23:07:48 +0700
+
 cogl (1.16.0-3blankon4) suroboyo; urgency=low
 
   * debian/control.in added sections Conflicts
