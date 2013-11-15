@@ -201,7 +201,7 @@ Description: GObject introspection data for the CoglPango 1.0 library
  dynamic bindings for libcogl-pango.
 
 Package: libcogl-gles2-15
-Architecture: linux-any kfreebsd-any
+Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          libgl1-mesa-glx [!armel !armhf ],
@@ -221,7 +221,7 @@ Description: Object oriented GL/GLES Abstraction/Utility Layer
 
 Package: libcogl-gles2-dev
 Section: libdevel
-Architecture: linux-any kfreebsd-any
+Architecture: any
 Depends: libcogl-gles2-15 (= ${binary:Version}),
          libcogl-dev (= ${binary:Version}),
          ${misc:Depends},
