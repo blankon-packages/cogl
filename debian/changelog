@@ -1,32 +1,17 @@
-cogl (1.16.0-3blankon5) suroboyo; urgency=low
-
-  * debian/control.in drop sections Conflicts and Replaces
-
- -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Wed, 23 Oct 2013 23:07:48 +0700
-
-cogl (1.16.0-3blankon4) suroboyo; urgency=low
-
-  * debian/control.in added sections Conflicts
-
- -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Wed, 23 Oct 2013 22:17:48 +0700
-
-cogl (1.16.0-3blankon3) suroboyo; urgency=low
-
-  * debian/control.in : Added sections Replaces: libcogl12
-
- -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Wed, 23 Oct 2013 21:57:57 +0700
-
-cogl (1.16.0-3blankon2) suroboyo; urgency=low
-
-  * debian/control.in : Change Architecture linux-any to any
-
- -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Wed, 23 Oct 2013 21:04:21 +0700
-
-cogl (1.16.0-3blankon1) suroboyo; urgency=low
+cogl (1.16.0-4blankon1) suroboyo; urgency=low
 
   * New upstream release
 
- -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Wed, 23 Oct 2013 20:01:17 +0700
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Fri, 15 Nov 2013 19:04:37 +0700
+
+cogl (1.16.0-4) experimental; urgency=low
+
+  * debian/rules, debian/libcogl15.symbols: Enable the KMS EGL platform on
+    linux
+  * debian/control.in: Let libcogl-dev depend on libwayland-dev [linux-any]
+  * debian/control.in: Add b-d on libgbm-dev for KMS EGL support
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sun, 03 Nov 2013 21:46:36 +0100
 
 cogl (1.16.0-3) experimental; urgency=low
 
@@ -78,13 +63,6 @@ cogl (1.14.0-2) unstable; urgency=low
 
  -- Andreas Henriksson <andreas@fatal.se>  Fri, 16 Aug 2013 18:27:29 +0200
 
-
-cogl (1.14.0-1blankon1) suroboyo; urgency=low
-
-  * New upstream release
-
- -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Wed, 27 Mar 2013 13:34:18 +0700
-
 cogl (1.14.0-1) experimental; urgency=low
 
   * New upstream release.
@@ -102,12 +80,6 @@ cogl (1.14.0-1) experimental; urgency=low
     + Mark cogl_egl_context_get_egl_display as not available on hurd.
 
  -- Emilio Pozuelo Monfort <pochu@debian.org>  Mon, 25 Mar 2013 18:33:43 +0100
-
-cogl (1.13.4-1blankon1) suroboyo; urgency=low
-
-  * New upstream release
-
- -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Mon, 25 Mar 2013 00:33:42 +0700
 
 cogl (1.13.4-1) experimental; urgency=low
 
@@ -150,13 +122,6 @@ cogl (1.13.4-1) experimental; urgency=low
       not needed and will only cause upgrade problems.
 
  -- Sjoerd Simons <sjoerd@debian.org>  Fri, 15 Mar 2013 23:02:34 +0100
-
-cogl (1.12.0-1blankon1) suroboyo; urgency=low
-
-  * New upstream release
-  * Change Maintainer
-
- -- Mahyuddin <dotovr@di.blankon.in>  Tue, 05 Mar 2013 12:14:57 +0700
 
 cogl (1.12.0-1) experimental; urgency=low
 
