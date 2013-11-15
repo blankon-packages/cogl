@@ -1,3 +1,9 @@
+cogl (1.16.0-4blankon2) suroboyo; urgency=low
+
+  * Replaces: libcogl12
+
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Fri, 15 Nov 2013 20:44:24 +0700
+
 cogl (1.16.0-4blankon1) suroboyo; urgency=low
 
   * New upstream release
