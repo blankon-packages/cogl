@@ -1,3 +1,9 @@
+cogl (1.18.0-0blankon3) tambora; urgency=low
+
+  * remove [linux-any].
+
+ -- Aris Febrianto <ariesfebrianto@gmail.com>  Tue, 25 Mar 2014 19:43:08 +0700
+
 cogl (1.18.0-0blankon2) tambora; urgency=low
 
   * disable 0001-Fix-build-on-big-endian.patch.
